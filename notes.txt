@@ -1,0 +1,10 @@
+npm i
+npm i @mui/icons-material
+npm i @material-ui/icons
+npm i @material-ui/core
+npm i @emotion/react
+npm i @emotion/styled
+
+
+to remove extra spaces taking while using flex-rap:wrap ; 
+use align-content : flex-start; along with it .

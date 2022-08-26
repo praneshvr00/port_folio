@@ -1,0 +1,7 @@
+emailjs.send("service_34xvkpe","template_a3lcdya",{
+subject: "subjectss",
+name: "namess",
+email: "emailss",
+message: "messagee",
+reply_to: "vrpranesh50@gmail.com",
+});
