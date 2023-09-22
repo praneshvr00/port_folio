@@ -105,6 +105,7 @@ const Desc = styled.p`
   margin-top: 3vh;
   margin-left: 2vw;
   word-spacing: 0.6rem;
+  line-height: 25px;
   width: 500px;
   color: white;
   @media (max-width: 900px) {
@@ -155,14 +156,7 @@ const AboutMe = () => {
         <Right>
           <Title>ABOUT ME</Title>
           <Desc>
-            I am a self motivated student, eager in learning technologies,
-            problem solving, and designing webapps. Currently I am pursuing 3rd
-            year of BE computer science in kongu engineering college. I have a
-            good experience in both programming languages and scripting
-            languages. I had done few projects in the webapps and currently I
-            am looking forwards to do projects thereby to enhance my skills and
-            to satisfy customers expectation. My contact details and github
-            details are linked in my profile section , Feel Free to contact me.
+          I am a self-motivated learner who is passionate about developing web applications, mastering cutting-edge technology, and problem-solving. I'm currently working as a frontend developer in Cartoon Mango Studios, Coimbatore. I have good experience in programming languages especially frontend technologies in both app and web platforms like Flutter, and ReactJS . I've successfully completed a number of web application projects  and I'm eager to take on new tasks to learn and boost my abilities to meet client expectations. In the 'Profile' area, you can find my contact information and GitHub profile. You can look into it and can contact me anytime.
           </Desc>
           <DResume onClick={ () => window.scrollTo({top: 2800, behavior: "smooth"})}>contact</DResume>
         </Right>

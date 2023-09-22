@@ -232,8 +232,8 @@ const Skills = () => {
           <Storage style={{ color: "#4572e9", margin: "13px", position:"absolute", top: "10px" }} />
           <Title>FOOD ORDERING</Title>
           <Desc>
-            I developed this project while <b>learning Advanced java </b>topics like
-            swings, servlet etc.. language used is java.
+            I developed this project while learning Advanced java topics like
+            <b> swings, servlet etc..</b> language used is java.
           </Desc>
           {!isView && <ClickView type="button" value="2" onClick={(e) => {setIsView(!isView); setId(e.target.value) }} >View</ClickView> }
         </SkillBox>
@@ -242,7 +242,7 @@ const Skills = () => {
           <Storage style={{ color: "#4572e9", margin: "13px", position:"absolute", top: "10px" }} />
           <Title>JEWELLERY SALE</Title>
           <Desc>
-          I am currently developing this website with our teammates for a <b> client (Ranga Jewellery) </b>, language used is Django.
+          I am currently developing this website with our teammates for a client (Ranga Jewellery), language used is <b> Django</b>.
           </Desc>
           {!isView && <ClickView type="button" value="3" onClick={(e) => {setIsView(!isView); setId(e.target.value) }} >View</ClickView> }
         </SkillBox>
@@ -258,7 +258,7 @@ const Skills = () => {
           <Storage style={{ color: "#4572e9", margin: "13px", position:"absolute", top: "10px" }} />
           <Title>FOOD MANAGEMENT</Title>
           <Desc>
-          I developed this project for a <b>Event</b> conducted by outer college, language used is html, css, bootstrap, JS.
+          I developed this project for a Event conducted by outer college, language used is <b> html, css, bootstrap, JS</b>.
           </Desc>
           {!isView && <ClickView type="button" value="5" onClick={(e) => {setIsView(!isView); setId(e.target.value) }} >View</ClickView> }
         </SkillBox>
@@ -266,9 +266,17 @@ const Skills = () => {
           <Storage style={{ color: "#4572e9", margin: "13px", position:"absolute", top: "10px" }} />
           <Title>GHEE SALES</Title>
           <Desc>
-          I did this project for a Ghee traders named <b> Barani Ghee </b> using Ejs, MongoDB, NodeJs, Bootstrap.
+          I did this project for a Ghee traders named  Barani Ghee  using <b> Ejs, MongoDB, NodeJs, Bootstrap </b>.
           </Desc>
           {!isView && <ClickView type="button" value="6" onClick={(e) => {setIsView(!isView); setId(e.target.value) }} >View</ClickView> }
+        </SkillBox>
+        <SkillBox>
+          <Storage style={{ color: "#4572e9", margin: "13px", position:"absolute", top: "10px" }} />
+          <Title>Ecommerce</Title>
+          <Desc>
+          I did this project while learning flutter in my intership, <b> Flutter is used to develop frontend UI. </b>.
+          </Desc>
+          {!isView && <ClickView type="button" value="7" onClick={(e) => {setIsView(!isView); setId(e.target.value) }} >View</ClickView> }
         </SkillBox>
         
       </Wrapper>

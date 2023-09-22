@@ -4,7 +4,7 @@ import i3m1 from "../Images/Jewellery Sales/1.png"
 import i4m1 from "../Images/Portfolio/1.png"
 import i5m1 from "../Images/Food Management/1.png"
 import i6m1 from "../Images/Barani Ghee/1.png"
-
+import i7m1 from "../Images/Ecom/1.png"
 export const ProjectsInfo = [
     {
         id: 1,
@@ -53,5 +53,13 @@ export const ProjectsInfo = [
         description: "As time moved on I recieved a project work from my friend for his Business. They make ghee, butter and also byproducts and needed a website to Addvertise. So I started developing Website using Ejs, NodeJs, MongoDB, Bootstrap etc .. At first it seems not much harder but as of time moved on developing in backend side became a tricky part. It's a bit tricky to manage user logged in sessions in database and to auto-logout after some time. Atlast I developed a full stack website and It is live.",
         sourcecode: "https://github.com/praneshvr00/BaraniGhee",
         link: "https://barani-ghee.herokuapp.com/",
+    },
+    {
+        id: 7,
+        title: "Ecommerce",
+        mainImg1: i7m1,
+        description: "While i started doing career as an fronend trainee, i have been assigned task to recreate flipkart application with a team of two members. Site will be used in both mobile and web since flutter is know for its cross-platoform. Everthing goes as per planned but one problem i faced while developing was Flipkart was constantly updating ui, so making up tothem at first was difficult, but at last I had completed my task within time. Integration was cruicial part of this, i learned a lot from this project and team work showed second way to Complete task and learn quickly. Been expecting to work like this more.",
+        sourcecode: "https://github.com/KrishnaKrinc/Ecommerce-Intern.git",
+        link: "https://ecom-53f5f.web.app",
     },
 ];

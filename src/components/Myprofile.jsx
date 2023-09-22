@@ -72,6 +72,7 @@ const Desc = styled.p`
   font-size: 1vw;
   font-weight: 500;
   width: 30vw;
+  line-height: 25px;
   color: white;
   @media (max-width: 900px) {
     font-size: 0.7rem;
@@ -206,7 +207,7 @@ const Myprofile = () => {
             </Writer>
           </Title>
           <Desc>
-            Computer Science student with knowledge in problem solving and designing , residing in dindigul .
+          Frontend Developer and my passion lies in crafting exceptional user experiences and innovative web solutions.
           </Desc>
           <DownloadR onClick={pdfGen}>
             Download Resume <Download />

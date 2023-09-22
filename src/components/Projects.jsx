@@ -3,7 +3,7 @@ import Icon1 from "@mui/icons-material/DiamondSharp";
 
 const Container = styled.div`
   width: 100%;
-  height: 900px;
+  height: 1000px;
   @media (max-width: 900px) {
     /* background-color: yellow; */
     height: 750px;
@@ -79,7 +79,6 @@ const Date = styled.p`
   padding-top: 20px;
   padding-left: 13px;
 `;
-const ViewContianer = styled.div``;
 const View = styled.button`
   position: absolute;
   bottom: 0;
@@ -152,7 +151,7 @@ const Projects = () => {
         <ProjectBox>
           <Role style={{ display: "flex" }}>
             <Icon1 style={{ color: "brown", margin: "10px" }} />
-            REACT
+            REACTJS
           </Role>
           <Date></Date>
           <View></View>
@@ -165,7 +164,22 @@ const Projects = () => {
           <Date></Date>
           <View></View>
         </ProjectBox>
-        
+        <ProjectBox>
+          <Role style={{ display: "flex" }}>
+            <Icon1 style={{ color: "#191919", margin: "10px" }} />
+            Django
+          </Role>
+          <Date></Date>
+          <View></View>
+        </ProjectBox>
+        <ProjectBox>
+          <Role style={{ display: "flex" }}>
+            <Icon1 style={{ color: "#191919", margin: "10px" }} />
+            Flutter
+          </Role>
+          <Date></Date>
+          <View></View>
+        </ProjectBox>
       </Wrapper>
     </Container>
   );

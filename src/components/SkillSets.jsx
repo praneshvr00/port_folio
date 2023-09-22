@@ -170,8 +170,8 @@ const SkillSets = () => {
       <Wrapper>
         <Left>
           <Qualification>
-            <Degree>BE</Degree>
-            <DegreeName>Computer Science Engineering</DegreeName>
+            <Degree>Frontend Developer</Degree>
+            <DegreeName>Web and Mobile Application</DegreeName>
             <About>
               Hello I am Pranesh , I am a developer with a decent experience in
               WebDeveloping, UI/UX, AndroidDeveloping, Coding and ProblemSolving.
@@ -180,7 +180,7 @@ const SkillSets = () => {
         </Left>
         <Right>
           <Title>
-            WEB DESIGNER AND DEVELOPER WORKING IN BOTH WEB DEVELOPMENT AND DESIGNING! 
+            WEB DESIGNER AND DEVELOPER WORKING IN NEW CUTTING EDGE TECHNOLOGIES! 
           </Title>
           <SkillBoxContainer>
             <Link to="/">
